@@ -1,0 +1,319 @@
+
+/************* header css start *************/
+.header {
+	height:96px;
+	width:100%;
+	background:#f1f1f1;
+	border-bottom: 1px solid #e5e5e5;
+}
+.logo {
+	float:left;
+	padding:15px 0;
+}
+.login {
+	float:right;
+	padding: 15px 0 0 0;
+}
+.login-input {
+	background: url(../css/images/input-bg.png) left top no-repeat;
+	border: none;
+	color:#929292;
+	font-family: Calibri, Verdana, "Courier New";
+	font-size:14px;
+	padding:10px 10px;
+	margin:0 10px 0 0;
+	width:168px;
+	behavior: url(PIE.htc);
+}
+.login-btn {
+	background: url(../css/images/login-btn-bg.png) left top repeat-x;
+	border: none;
+	border-radius:5px;
+	color:#FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:16px;
+	height:34px;
+	padding:5px 10px;
+	margin:0 0 15px 0;
+	width:80px;
+	font-weight:bold;
+	cursor:pointer;
+}
+.login-btn:hover {
+	background: url(../css/images/login-btn-bg.png) left bottom repeat-x;
+}
+.login-detail span {
+	float: left;
+	width: 206px;
+        
+}
+.login-detail a {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:13px;
+}
+/************* header css end *************/
+
+/************* sign up start *************/
+.signup {
+	width: 456px;
+	float:left;
+	text-align:left;
+	background:#f1f1f1;
+	border: 1px solid #e5e5e5;
+	margin:30px 0 30px 0;
+	border-radius:4px;
+	padding:20px 0 0 20px;
+	position:relative;
+	margin-left:20%;
+}
+.signup h1 {
+	color:#de6e1d;
+	font-size:18px;
+}
+.sigup-row {
+	float:left;
+}
+.sigup-row label {
+	width:95px;
+	float:left;
+	padding:10px 0;
+	font-size:14px;
+}
+.sigup-row label.label2 {
+	width:76px;
+	float:left;
+	padding:20px 0;
+	font-size:14px;
+}
+.signup-name-input {
+	background: url(../css/images/input-bg-2.png) left top no-repeat;
+	border: none;
+	color:#000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	padding:10px 10px;
+	margin:10px 0;
+	width:116px;
+	float: left;
+}
+.signup-big-input {
+	background: url(../css/images/input-bg-3.png) left top no-repeat;
+	border: none;
+	color:#000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	padding:10px 10px;
+	margin:10px 0;
+	width:340px;
+}
+.selectbox {
+	border:0;
+	background: #fdf7f7;
+	width:190px;
+        height: 30px;
+	color:#000;
+	font-family: Calibri, Verdana, "Courier New";
+	font-size:14px;
+}
+.selectbox1 {
+	border:0;
+	background: #fdf7f7;
+	width:100px;
+    height: 20px;
+	color:#000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:14px;
+}
+.selectbox-small {
+	border:none;
+	background: #fdf7f7;
+	width:90px;
+	color:#000;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:14px;
+	
+
+}
+.radio {
+	float:left;
+	padding:6px 0 0 0;
+	margin:0 15px 0 0;
+}
+.signup-small-input {
+	background: url(../css/images/input-bg-4.png) left top no-repeat;
+	border: none;
+	color:#000;
+	font-family: Calibri, Verdana, "Courier New";
+	font-size:14px;
+	padding:10px 10px;
+	margin:10px 0;
+	width:52px;
+}
+.signup-date-input {
+	background: url(../css/images/input-bg-5.png) left top no-repeat;
+	border: none;
+	color:#000;
+	font-family: Calibri, Verdana, "Courier New";
+	font-size:14px;
+	padding:10px 10px;
+	margin:10px 0;
+	width:94px;
+	float: left;
+}
+.signup-btn {
+	background: url(../css/images/btn-signup-bg.png) left -2px repeat-x;
+	border: none;
+	border-radius:5px;
+	color:#FFF;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size:18px;
+	height:38px;
+	width:119px;
+	font-weight:normal;
+	cursor:pointer;
+}
+.signup-btn:hover {
+	background: url(../css/images/btn-signup-bg.png) left -42px repeat-x;
+}
+.indicator {
+	background: url("../images/arrow1.png") repeat-x scroll left top transparent;
+	height: 24px;
+	left: -11px;
+	position: absolute;
+	top: 14px;
+	width: 11px;
+}
+/************* sign up end *************/
+
+/************* footer start *************/
+.footer {
+	width:100%;
+	border-top: 1px solid #eaeaea;
+	height:63px;
+}
+.copyrights {
+	text-align:center;
+	padding:20px 0 0 0;
+	font-size:12px;
+}
+/************* footer end *************/
+.left-panel {
+	background: url("../images/new1.gif") left top transparent no-repeat;
+	float:left;
+	width:476px;
+	height:529px;
+	margin: 90px 0 0 0;
+	position:relative;
+}
+.parents {
+	background: url("../images/icon-parents.png") left top transparent no-repeat;
+	width:90px;
+	height:90px;
+	position:absolute;
+	left:185px;
+	top:35px;
+}
+.parents:hover {
+	background: url("../images/icon-parents.png") left bottom transparent no-repeat;
+}
+.school {
+	background: url("../images/icon-school.png") left top transparent no-repeat;
+	width:90px;
+	height:85px;
+	position:absolute;
+	left:-12px;
+	top:225px;
+}
+.school:hover {
+	background: url("../images/icon-school.png") left bottom transparent no-repeat;
+	width:95px;
+	height:95px;
+	left:-12px;
+	top:220px;
+}
+.tutor {
+	background: url("../images/icon-tutor.png") left top transparent no-repeat;
+	width:90px;
+	height:85px;
+	position:absolute;
+	left:382px;
+	top:225px;
+}
+.tutor:hover {
+	background: url("../images/icon-tutor.png") left bottom transparent no-repeat;
+	width:95px;
+	height:95px;
+	left:385px;
+	top:220px;
+}
+.teacher {
+	background: url("../images/icon-teacher.png") left top transparent no-repeat;
+	width:90px;
+	height:90px;
+	position:absolute;
+	left:185px;
+	top:415px;
+}
+.teacher:hover {
+	background: url("images/icon-teacher.png") left bottom transparent no-repeat;
+	width:95px;
+	height:95px;
+	left:185px;
+	top:412px;
+}
+
+.student {
+	background: url("../images/icon-students.png") left top transparent no-repeat;
+	width:90px;
+	height:90px;
+	position:absolute;
+	left:185px;
+	top:415px;
+}
+.student:hover {
+	background: url("../images/icon-students.png") left bottom transparent no-repeat;
+	width:95px;
+	height:95px;
+	left:185px;
+	top:412px;
+}
+
+
+.parents a, .school a, .tutor a, .teacher a, .middle-icons a {
+	display:block;
+	height:100%;
+}
+
+.middle-icons {position:absolute;
+	left:183px;
+	top:222px;}
+
+
+.studentB{
+	background: url("../images/orang-icons-bg.png") left top transparent no-repeat;
+	width:100px;
+	height:100px;
+}
+.parentB{
+	background: url("../images/orang-icons-bg.png") -101px top transparent no-repeat;
+	width:100px;
+	height:100px;
+}
+.schoolB{
+	background: url("../images/orang-icons-bg.png") -203px top transparent no-repeat;
+	width:100px;
+	height:100px;
+}
+.tutorB{
+	background: url("../images/orang-icons-bg.png") -311px top transparent no-repeat;
+	width:100px;
+	height:100px;
+}
+.teacherB{
+	background: url("../images/orang-icons-bg.png") -415px top transparent no-repeat;
+	width:100px;
+	height:100px;
+}
+
+
+

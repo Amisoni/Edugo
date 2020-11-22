@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+#close {
+	color: red;
+	float: right;
+	margin-right: -8px;
+	margin-top: -15px;
+	width: 10px;
+	cursor:pointer;
+}
+
+div#overlay {
+display:none;
+	z-index:2;
+	background:#000;
+	position:fixed;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+}
+.product_table {
+	width:100%;
+}
+.product_table td {
+	padding:5px;
+	vertical-align:middle;
+}
+.over_box {
+	background:#FFFFFF;
+	float:left;
+	margin: 15% 0 0 35%;
+	border:solid;
+	border-color:#33FF00;
+	width:30%;
+	height:20%;
+}
+#box_header {
+	background:#0000FF;
+	color:#FF0000;
+}
+  	li {
+				padding:0px;
+				margin-top:10px;
+                height: auto;
+                list-style-type: none;
+                text-align: left;
+                width: 150px;
+        }
+     #topul 
+	 {
+		 list-style-type:none;
+		font-family:"Lucida Grande",tahoma,verdana,arial,sans-serif;
+		font-size:15px;
+		color:#666;
+       padding: 0px;
+	   text-transform:uppercase;
+        }
+	
+	#bottomul 
+	 {
+		 list-style-type:none;
+		font-family:"Lucida Grande",tahoma,verdana,arial,sans-serif;
+		font-size:15px;
+		color:#000;
+                padding: 15px;
+	   text-transform:capitalize;
+    }
+	a
+	{
+		color:inherit;
+	}
+

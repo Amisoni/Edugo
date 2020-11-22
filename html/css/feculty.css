@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+
+.parents {
+	background: url("../images/icon-parents.png") left top transparent no-repeat;
+	width:90px;
+	height:90px;
+	position:absolute;
+	left:185px;
+	top:35px;
+}
+.parents:hover {
+	background: url("../images/icon-parents.png") left bottom transparent no-repeat;
+}
+.school {
+	background: url("../images/icon-school.png") left top transparent no-repeat;
+	width:90px;
+	height:85px;
+	position:absolute;
+	left:-12px;
+	top:225px;
+}
+.school:hover {
+	background: url("../images/icon-school.png") left bottom transparent no-repeat;
+	width:95px;
+	height:95px;
+	left:-12px;
+	top:220px;
+}
+.tutor {
+	background: url("../images/icon-tutor.png") left top transparent no-repeat;
+	width:90px;
+	height:85px;
+	position:absolute;
+	left:382px;
+	top:225px;
+}
+.tutor:hover {
+	background: url("../images/icon-tutor.png") left bottom transparent no-repeat;
+	width:95px;
+	height:95px;
+	left:385px;
+	top:220px;
+}
+.teacher {
+	background: url("../images/icon-students.png") left top transparent no-repeat;
+	width:90px;
+	height:90px;
+	position:absolute;
+	left:185px;
+	top:415px;
+}
+.:hover {
+	background: url("../images/icon-teacher.png") left bottom transparent no-repeat;
+	width:95px;
+	height:95px;
+	left:185px;
+	top:412px;
+}
+
+.student {
+	background: url("../images/icon-students.png") left top transparent no-repeat;
+	width:90px;
+	height:90px;
+	position:absolute;
+	left:185px;
+	top:415px;
+}
+.student:hover {
+	background: url("../images/icon-students.png") left bottom transparent no-repeat;
+	width:95px;
+	height:95px;
+	left:185px;
+	top:412px;
+}
+
+
+.parents a, .school a, .tutor a, .teacher a, .middle-icons a {
+	display:block;
+	height:100%;
+}
+
+.middle-icons {position:absolute;
+	left:183px;
+	top:222px;}
+
+
+.studentB{
+	background: url("../images/orang-icons-bg.png") left top transparent no-repeat;
+	width:100px;
+	height:100px;
+}
+.parentB{
+	background: url("../images/orang-icons-bg.png") -101px top transparent no-repeat;
+	width:100px;
+	height:100px;
+}
+.schoolB{
+	background: url("../images/orang-icons-bg.png") -203px top transparent no-repeat;
+	width:100px;
+	height:100px;
+}
+.tutorB{
+	background: url("../images/orang-icons-bg.png") -311px top transparent no-repeat;
+	width:100px;
+	height:100px;
+}
+.teacherB{
+	background: url("../images/orang-icons-bg.png") -415px top transparent no-repeat;
+	width:100px;
+	height:100px;
+}
+

@@ -1,0 +1,45 @@
+	li {
+		padding:0px;
+		margin-top:10px;
+                height: auto;
+                list-style-type: none;
+                text-align: left;
+                width: 150px;
+        }
+     #topul 
+	 {
+		 list-style-type:none;
+		font-family:"Lucida Grande",tahoma,verdana,arial,sans-serif;
+		font-size:15px;
+		color:#666;
+       padding: 0px;
+	   text-transform:uppercase;
+        }
+	
+	#bottomul 
+	 {
+		list-style-type:none;
+		font-family:"Lucida Grande",tahoma,verdana,arial,sans-serif;
+		font-size:15px;
+		color:#000;
+		padding-top:0px;
+		padding-left: 15px;
+	   	text-transform:capitalize;
+    }
+	a
+	{
+		color:inherit;
+	}
+		#clicker
+		{
+			cursor:pointer;
+		}
+		#popup-wrapper
+		{
+			width:500px;
+			height:300px;
+			background-color:#ccc;
+			padding:10px;
+		
+		}
+		
